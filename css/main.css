@@ -1,0 +1,36 @@
+/* font-family: 'Montserrat', sans-serif; */
+*, 
+::after, 
+::before{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+    background-image: url(/img/christmas-colour.png);
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+}
+.container{
+    border: 5px double black;
+    padding: 0.5em 1em;
+    backdrop-filter: blur(2px);
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+@media (min-width:375px){
+    h2{
+        font-size: 4rem;
+    }
+}
